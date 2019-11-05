@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:the_web/widgets/centered_view/centered_view.dart';
 import 'package:the_web/widgets/course_details/course_details.dart';
 import 'package:the_web/widgets/navigation_bar/navigation_bar.dart';
 import 'package:the_web/widgets/responsiveLayout/responsiveLayout.dart';
