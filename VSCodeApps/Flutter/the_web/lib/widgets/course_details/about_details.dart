@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:responsive_builder/responsive_builder.dart';
 
-class CourseDetails extends StatelessWidget {
-  const CourseDetails({Key key, Alignment aligment}) : super(key: key);
+class AboutDetails extends StatelessWidget {
+  const AboutDetails({Key key, Alignment aligment}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
@@ -27,7 +27,7 @@ class CourseDetails extends StatelessWidget {
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
             Text(
-              'EMRE CAN DEREKÖY',
+              'ABOUT',
               style: TextStyle(
                   fontWeight: FontWeight.w800,
                   height: 0.9,
@@ -38,7 +38,7 @@ class CourseDetails extends StatelessWidget {
               height: 30,
             ),
             Text(
-              "I'm just a man lost in space, Calling out, hoping to hear something back, Something back ",
+              "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
               style: TextStyle(
                 fontSize: descriptionSize,
                 height: 1.7,

@@ -12,11 +12,9 @@ class Discord extends StatelessWidget {
           html.window.location.href = "https://discord.gg/NmZx2nN";
         },
         child: Text(
-          "Voila'ya katıl.",
-          style: TextStyle(fontSize: 20,
-          fontWeight: FontWeight.w400,
-          color: Colors.white),
-          
+          "Join Voila!",
+          style: TextStyle(
+              fontSize: 20, fontWeight: FontWeight.w400, color: Colors.white),
         ),
         color: Color.fromARGB(244, 244, 67, 57),
         padding: const EdgeInsets.symmetric(horizontal: 40, vertical: 15),
